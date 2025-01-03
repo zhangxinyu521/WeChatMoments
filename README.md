@@ -20,6 +20,8 @@ WeChatMoments 是一款适用于 chatgpt-on-wechat 项目的朋友圈文案生�
 - 发送"文案"：获取文字版朋友圈文案
 - 发送"图片文案"：获取图片版朋友圈文案
 
-## 五. 自定义
-- 修改 templates/moments_template.html 可自定义卡片样式
-- 支持自定义字体（需将字体文件放入系统字体目录） 
+## 五. 使用样例
+![alt text](bf63e9c31ae8ec493d74d32de43023d.png)
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](8c3b859c95290fa7cbb468aa710c7af.jpg)
