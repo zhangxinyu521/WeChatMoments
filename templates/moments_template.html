@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>朋友圈文案</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            padding: 30px;
+            max-width: 500px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .content {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        .source {
+            font-size: 14px;
+            color: #666;
+            text-align: right;
+            font-style: italic;
+        }
+        .divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #ddd, transparent);
+            margin: 20px 0;
+        }
+        .footer {
+            font-size: 12px;
+            color: #999;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="content">{{content}}</div>
+        <div class="divider"></div>
+        <div class="source">— {{source}}</div>
+        <div class="footer">由 WeChatMoments 生成</div>
+    </div>
+</body>
+</html> 
